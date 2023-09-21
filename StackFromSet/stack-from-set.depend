@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1695296187 source:d:\intro-data-struc\stackfromset\main.cpp
+	<iostream>
+	<stack>
+	"student.h"
+	<assert.h>
+	<exception>
+	<set>
+	<string>
+	<sstream>
+
+1695296165 d:\intro-data-struc\stackfromset\student.h
+	"stack.h"
+
+1633877894 d:\intro-data-struc\stackfromset\stack.h
+	<stdexcept>
+	<iostream>
+	<set>
+

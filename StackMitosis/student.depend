@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1665248150 source:c:\users\tanyapat\intro-data-struc\stackmitosis\main.cpp
+	"student.h"
+	<iostream>
+	<vector>
+
+1695141960 c:\users\tanyapat\intro-data-struc\stackmitosis\student.h
+	"stack.h"
+
+1665232894 c:\users\tanyapat\intro-data-struc\stackmitosis\stack.h
+	<stdexcept>
+	<iostream>
+	<set>
+

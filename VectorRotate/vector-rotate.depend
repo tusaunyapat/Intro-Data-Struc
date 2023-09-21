@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1635223343 source:c:\users\tanyapat\intro-data-struc\vectorrotate\main.cpp
+	<stdexcept>
+	<iostream>
+	<string>
+	<cassert>
+	"vector.h"
+	"student.h"
+
+1635219167 c:\users\tanyapat\intro-data-struc\vectorrotate\vector.h
+	<stdexcept>
+	<iostream>
+
+1694838592 c:\users\tanyapat\intro-data-struc\vectorrotate\student.h
+

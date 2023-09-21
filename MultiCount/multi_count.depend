@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1695266074 source:d:\intro-data-struc\multicount\main.cpp
+	<stdexcept>
+	<iostream>
+	"queue.h"
+	"student.h"
+	<vector>
+	<time.h>
+	<stdlib.h>
+	<string>
+
+1569944083 d:\intro-data-struc\multicount\queue.h
+	<stdexcept>
+	<iostream>
+	<vector>
+
+1695265961 d:\intro-data-struc\multicount\student.h
+	<map>
+

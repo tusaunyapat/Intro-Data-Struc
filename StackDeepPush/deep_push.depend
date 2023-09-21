@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1572188723 source:d:\intro-data-struc\stackdeeppush\main.cpp
+	<iostream>
+	<vector>
+	<stack>
+	"stack.h"
+	"student.h"
+
+1572188821 d:\intro-data-struc\stackdeeppush\stack.h
+	<stdexcept>
+	<iostream>
+	<vector>
+	<stack>
+	<stdio.h>
+
+1695293915 d:\intro-data-struc\stackdeeppush\student.h
+

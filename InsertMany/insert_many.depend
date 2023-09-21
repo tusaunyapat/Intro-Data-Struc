@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1572188724 source:c:\users\tanyapat\intro-data-struc\insertmany\main.cpp
+	<stdexcept>
+	<iostream>
+	"vector.h"
+	"student.h"
+	<vector>
+
+1571926314 c:\users\tanyapat\intro-data-struc\insertmany\vector.h
+	<stdexcept>
+	<iostream>
+
+1695147020 c:\users\tanyapat\intro-data-struc\insertmany\student.h
+	<algorithm>
+

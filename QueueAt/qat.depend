@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1507945463 source:d:\intro-data-struc\queueat\main.cpp
+	<stdexcept>
+	<iostream>
+	"queue.h"
+	"student.h"
+	<vector>
+
+1507945466 d:\intro-data-struc\queueat\queue.h
+	<stdexcept>
+	<iostream>
+
+1695197800 d:\intro-data-struc\queueat\student.h
+

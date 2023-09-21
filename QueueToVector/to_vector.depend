@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1695185757 source:d:\intro-data-struc\queuetovector\main.cpp
+	<iostream>
+	<stack>
+	<assert.h>
+	"queue.h"
+	"student.h"
+
+1456244793 d:\intro-data-struc\queuetovector\queue.h
+	<stdexcept>
+	<iostream>
+	<vector>
+
+1695185882 d:\intro-data-struc\queuetovector\student.h
+

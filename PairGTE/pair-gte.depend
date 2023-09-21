@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1601261463 source:d:\intro-data-struc\pairgte\main.cpp
+	<stdexcept>
+	<iostream>
+	"pair.h"
+	"student.h"
+	<string>
+
+1601212519 d:\intro-data-struc\pairgte\pair.h
+	<iostream>
+	<assert.h>
+
+1695291241 d:\intro-data-struc\pairgte\student.h
+

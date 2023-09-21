@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1488942504 source:c:\users\tanyapat\intro-data-struc\popmany\main.cpp
+	<stdio.h>
+	<iostream>
+	<vector>
+	<stack>
+	"stack.h"
+	"student.h"
+
+1488852696 c:\users\tanyapat\intro-data-struc\popmany\stack.h
+	<stdexcept>
+	<iostream>
+	<vector>
+	<stack>
+
+1695173298 c:\users\tanyapat\intro-data-struc\popmany\student.h
+

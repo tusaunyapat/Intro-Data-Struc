@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1508116977 source:c:\users\tanyapat\intro-data-struc\vectorunique\main.cpp
+	<iostream>
+	<vector>
+	"vector.h"
+	"student.h"
+	<stdio.h>
+	<stdlib.h>
+
+1507942111 c:\users\tanyapat\intro-data-struc\vectorunique\vector.h
+	<stdexcept>
+	<iostream>
+	<vector>
+
+1694750466 c:\users\tanyapat\intro-data-struc\vectorunique\student.h
+	<set>
+

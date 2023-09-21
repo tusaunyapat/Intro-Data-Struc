@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1637205240 source:c:\users\tanyapat\intro-data-struc\vectorless\main.cpp
+	<stdexcept>
+	<iostream>
+	<string>
+	<cassert>
+	<vector>
+	"vector.h"
+	"student.h"
+
+1637134736 c:\users\tanyapat\intro-data-struc\vectorless\vector.h
+	<stdexcept>
+	<iostream>
+
+1694839922 c:\users\tanyapat\intro-data-struc\vectorless\student.h
+

@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1637084130 source:d:\intro-data-struc\moveinsertstack\main.cpp
+	<iostream>
+	<vector>
+	"stack.h"
+	"student.h"
+
+1637082885 d:\intro-data-struc\moveinsertstack\stack.h
+	<stdexcept>
+	<iostream>
+	<vector>
+	"stack.h"
+
+1695297597 d:\intro-data-struc\moveinsertstack\student.h
+

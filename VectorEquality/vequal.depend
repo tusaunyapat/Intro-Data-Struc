@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1424527993 source:c:\users\tanyapat\intro-data-struc\vectorequality\main.cpp
+	<stdexcept>
+	<iostream>
+	"vector.h"
+	"student.h"
+
+1425051986 c:\users\tanyapat\intro-data-struc\vectorequality\vector.h
+	<stdexcept>
+	<iostream>
+
+1694574054 c:\users\tanyapat\intro-data-struc\vectorequality\student.h
+

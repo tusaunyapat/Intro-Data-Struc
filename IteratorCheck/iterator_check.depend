@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1569943026 source:c:\users\tanyapat\intro-data-struc\iteratorcheck\main.cpp
+	<stdexcept>
+	<iostream>
+	"vector.h"
+	"student.h"
+	<vector>
+
+1569859656 c:\users\tanyapat\intro-data-struc\iteratorcheck\vector.h
+	<stdexcept>
+	<iostream>
+
+1694589853 c:\users\tanyapat\intro-data-struc\iteratorcheck\student.h
+
