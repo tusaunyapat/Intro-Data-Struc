@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1668520929 source:d:\intro-data-struc\queuetotalreverse\main.cpp
+	"queue.h"
+	"student.h"
+	<iostream>
+
+1668520961 d:\intro-data-struc\queuetotalreverse\queue.h
+	<iostream>
+	<stdexcept>
+
+1696332263 d:\intro-data-struc\queuetotalreverse\student.h
+	"queue.h"
+

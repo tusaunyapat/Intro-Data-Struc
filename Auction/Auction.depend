@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1696526586 source:d:\intro-data-struc\auction\main.cpp
+	<bits/stdc++.h>
+	<algorithm>
+

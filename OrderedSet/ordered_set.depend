@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1538127322 source:d:\intro-data-struc\orderedset\main.cpp
+	<iostream>
+	"student.h"
+
+1696517038 d:\intro-data-struc\orderedset\student.h
+	<vector>
+	<algorithm>
+

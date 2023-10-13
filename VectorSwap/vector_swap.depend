@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1574595746 source:d:\intro-data-struc\vectorswap\main.cpp
+	<stdexcept>
+	<iostream>
+	"vector.h"
+	"student.h"
+	<vector>
+
+1574595320 d:\intro-data-struc\vectorswap\vector.h
+	<stdexcept>
+	<iostream>
+
+1696387960 d:\intro-data-struc\vectorswap\student.h
+	<algorithm>
+

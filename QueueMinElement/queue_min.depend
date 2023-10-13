@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1666615826 source:d:\intro-data-struc\queueminelement\main.cpp
+	<iostream>
+	<string>
+	"queue.h"
+	"student.h"
+
+1666629278 d:\intro-data-struc\queueminelement\queue.h
+	<stdexcept>
+	<iostream>
+	<vector>
+
+1696218394 d:\intro-data-struc\queueminelement\student.h
+	<algorithm>
+	<vector>
+
