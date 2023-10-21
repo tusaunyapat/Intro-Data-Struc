@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1697737512 source:d:\intro-data-struc\heapchange\main.cpp
+	<iostream>
+	<vector>
+	"priority_queue.h"
+	"student.h"
+
+1603706172 d:\intro-data-struc\heapchange\priority_queue.h
+	<stdexcept>
+	<iostream>
+
+1697737641 d:\intro-data-struc\heapchange\student.h
+	<assert.h>
+

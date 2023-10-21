@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1459275569 source:d:\intro-data-struc\customorder\main.cpp
+	<iostream>
+	<vector>
+	"song.h"
+
+1697776836 d:\intro-data-struc\customorder\song.h
+	<iostream>
+	<queue>
+	<string>
+	<vector>
+	"priority_queue.h"
+
+1459277820 d:\intro-data-struc\customorder\priority_queue.h
+	<stdexcept>
+	<iostream>
+

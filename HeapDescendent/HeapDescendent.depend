@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1697219703 source:d:\intro-data-struc\heapdescendent\main.cpp
+	<iostream>
+	<vector>
+

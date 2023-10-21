@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1697777764 source:d:\intro-data-struc\heapk-th\main.cpp
+	<algorithm>
+	<random>
+	<chrono>
+	<cassert>
+	<string>
+	"priority_queue.h"
+	"student.h"
+
+1635094225 d:\intro-data-struc\heapk-th\priority_queue.h
+	<stdexcept>
+	<iostream>
+
+1697778500 d:\intro-data-struc\heapk-th\student.h
+	<algorithm>
+	<vector>
+	"priority_queue.h"
+

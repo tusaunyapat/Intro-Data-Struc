@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1603644286 source:d:\intro-data-struc\rankinheap\main.cpp
+	<iostream>
+	<vector>
+	"priority_queue.h"
+	"student.h"
+
+1603648214 d:\intro-data-struc\rankinheap\priority_queue.h
+	<stdexcept>
+	<iostream>
+
+1697738314 d:\intro-data-struc\rankinheap\student.h
+

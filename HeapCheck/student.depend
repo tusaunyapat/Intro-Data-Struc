@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1668999854 source:d:\intro-data-struc\heapcheck\main.cpp
+	"priority_queue.h"
+	"student.h"
+	<iostream>
+
+1668677185 d:\intro-data-struc\heapcheck\priority_queue.h
+	<iostream>
+	<stdexcept>
+
+1697771187 d:\intro-data-struc\heapcheck\student.h
+	"priority_queue.h"
+

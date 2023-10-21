@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1427808804 source:d:\intro-data-struc\k-aryheap\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<algorithm>
+	<functional>
+	<iostream>
+	"priority_queue.h"
+	"student.h"
+
+1427808558 d:\intro-data-struc\k-aryheap\priority_queue.h
+	<stdexcept>
+	<iostream>
+
+1697218078 d:\intro-data-struc\k-aryheap\student.h
+	"priority_queue.h"
+	<iostream>
+
