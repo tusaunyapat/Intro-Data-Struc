@@ -134,10 +134,11 @@ public:
   //constructor
   student() : name(), score() { }
   student(std::string aname,int ascore) : name(aname), score(ascore) { }
-    bool operator<(const student& other) const {
-        if(score < other.score)return true;
-        if(score == other.score && name > other.name)return true;
-        return false;
+    bool operator<(const student& other) const{
+        if(score == other.score){
+            return name > other.name;
+        }
+        return score < other.score;
     }
 };
 

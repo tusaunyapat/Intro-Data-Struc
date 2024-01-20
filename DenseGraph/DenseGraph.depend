@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1699519704 source:d:\intro-data-struc\densegraph\main.cpp
+	"densegraph.h"
+	<iostream>
+
+1424693823 d:\intro-data-struc\densegraph\densegraph.h
+	<vector>
+

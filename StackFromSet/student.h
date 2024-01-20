@@ -8,21 +8,14 @@
 template <typename T>
 CP::stack<T>::stack(typename std::set<T>::iterator first,typename std::set<T>::iterator last) {
   //write your code ONLY here
-    auto it = first;
-    int s = 0;
-    while(it!=last){
-        it++;
-        s++;
-    }
-    mData = new T[s]();
-    mCap = s;
-    mSize = s;
-    s-=1;
-    it = first;
-    while(it!=last){
-        mData[s--] = *it;
-        it++;
-    }
+   CP::stack<T> tmp;
+
+   for(auto it = first;it!=last;it++){
+
+        tmp.push(*it);
+
+   }
+   return tmp;
 }
 
 #endif

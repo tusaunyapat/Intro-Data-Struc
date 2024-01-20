@@ -8,12 +8,10 @@
 template <typename T>
 void CP::queue<T>::move_to_back(size_t pos) {
   //write your code here
-  T tmp = mData[(mFront+pos)%mCap];
-
-  for(size_t i = pos;i<size()-1;i++){
-    mData[(mFront+i)%mCap] = mData[(mFront+i+1)%mCap];
+  mData[mSize] = mData[pos];
+  for(int i=pos;i<mSize;i++){
+    std::swap(mData[(i+mFront)%mCap], mData[(i+1+mFront)%mCap]);
   }
-  mData[(mFront+ mSize-1)%mCap] = tmp;
 }
 
 #endif

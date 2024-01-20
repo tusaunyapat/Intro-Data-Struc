@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1461641480 source:d:\intro-data-struc\listreplace\main.cpp
+	<stdexcept>
+	<iostream>
+	"replace.h"
+
+1699467273 d:\intro-data-struc\listreplace\replace.h
+

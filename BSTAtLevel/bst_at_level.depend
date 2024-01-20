@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1668786652 source:d:\intro-data-struc\bstatlevel\main.cpp
+	<stdexcept>
+	<iostream>
+	"map_bst.h"
+	"student.h"
+	<vector>
+
+1699859344 d:\intro-data-struc\bstatlevel\map_bst.h
+	<iostream>
+	<vector>
+
+1699859814 d:\intro-data-struc\bstatlevel\student.h
+	<algorithm>
+	<iostream>
+

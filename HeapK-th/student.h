@@ -9,22 +9,31 @@ template <typename T,typename Comp >
 T CP::priority_queue<T,Comp>::get_kth(size_t k) const {
   //write your code here
     if(k==1)return mData[0];
-
     if(k==2){
-        if(mLess(mData[1], mData[2])){
-            return mData[2];
+
+        T tmp = mData[1];
+        for(int i=1;i<mSize;i++){
+            if(mLess(tmp, mData[i])){
+                tmp = mData[i];
+            }
         }
-        return mData[1];
+        return tmp;
     }
 
     if(k==3){
         T tmp = mData[1];
-        if(mLess(mData[2], mData[1]))tmp = mData[2];
-        for(int i=0;i<4;i++){
-            if(3+i>mSize)break;
-            if(mLess(tmp, mData[i+3]))tmp = mData[i+3];
+        int idx;
+        for(int i=1;i<mSize;i++){
+            if(mLess(tmp, mData[i])){
+                tmp = mData[i];
+                idx = i;
+            }
         }
-        return tmp;
+        for(int i=1;i<mSize;i++){
+            if(mLess(tmp, mData[i]) and idx != i){
+                tmp = mData[i];
+            }
+        }
 
     }
   //can include anything

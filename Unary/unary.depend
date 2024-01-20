@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1461682910 source:d:\intro-data-struc\unary\main.cpp
+	<vector>
+	<iostream>
+	"map_bst.h"
+	"student.h"
+
+1461682616 d:\intro-data-struc\unary\map_bst.h
+	<iostream>
+
+1699728794 d:\intro-data-struc\unary\student.h
+

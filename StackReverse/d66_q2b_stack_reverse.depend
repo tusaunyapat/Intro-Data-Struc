@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1698592849 source:d:\intro-data-struc\stackreverse\main.cpp
+	"stack.h"
+	"student.h"
+	<iostream>
+
+1698592849 d:\intro-data-struc\stackreverse\stack.h
+	<stdexcept>
+	<iostream>
+
+1699860562 d:\intro-data-struc\stackreverse\student.h
+	"stack.h"
+

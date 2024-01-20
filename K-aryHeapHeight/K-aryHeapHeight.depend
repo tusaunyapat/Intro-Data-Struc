@@ -1,4 +1,5 @@
 # depslib dependency file v1.0
-1697200131 source:d:\intro-data-struc\k-aryheapheight\main.cpp
+1698938076 source:d:\intro-data-struc\k-aryheapheight\main.cpp
 	<iostream>
+	<math.h>
 

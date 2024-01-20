@@ -9,8 +9,9 @@ template <typename T,typename Comp >
 void CP::priority_queue<T,Comp>::fixUp(size_t idx) {
     T tmp = mData[idx];
 
-    while(idx > 0) {
+    while(idx>0){
         int p = (idx-1)/4;
+
         if(mLess(tmp, mData[p]))break;
 
         mData[idx] = mData[p];
@@ -23,19 +24,20 @@ void CP::priority_queue<T,Comp>::fixUp(size_t idx) {
 template <typename T,typename Comp >
 void CP::priority_queue<T,Comp>::fixDown(size_t idx) {
     T tmp = mData[idx];
+    int next;
+    while(idx*4+1 < mSize){
+        int p = 4*idx+1;
+        next = p;
 
-    int c, next;
-    while((c = 4*idx +1) < mSize) {
-        next = c;
-        if(c+1 < mSize && mLess(mData[next], mData[c+1]))next = c+ 1;
-        if(c+2 < mSize && mLess(mData[next], mData[c+2]))next = c+ 2;
-        if(c+3 < mSize && mLess(mData[next], mData[c+3]))next = c+ 3;
+        if(p+1<mSize and mLess(mData[next], mData[p+1]))next = p+1;
+        if(p+2<mSize and mLess(mData[next], mData[p+1]))next = p+2;
+        if(p+3<mSize and mLess(mData[next], mData[p+1]))next = p+3;
         if(mLess(mData[next], tmp))break;
-
         mData[idx] = mData[next];
         idx = next;
     }
-    mData[idx] = tmp;
+     mData[idx] = tmp;
+
 }
 
 #endif

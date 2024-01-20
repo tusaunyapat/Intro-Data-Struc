@@ -8,17 +8,20 @@ bool CP::priority_queue<T,Comp>::operator==(const CP::priority_queue<T,Comp> &ot
   //write your code here
   if(mSize != other.size())return false;
 
+    priority_queue<T, Comp> pq1(*this);
+    priority_queue<T, Comp> pq2(other);
 
-  priority_queue<T, Comp> pqA(*this);
-  priority_queue<T, Comp> pqB(other);
+    while(!pq1.empty()){
+        T a = pq1.top();
+        pq1.pop();
 
-  while(!pqA.empty()){
-    T a = pqA.top();
-    pqA.pop();
+        if(a != pq2.top()){
+            return false;
+        }
+        pq2.pop();
+    }
 
-    if(a != pqB.top())return false;
-    pqB.pop();
-  }
+
 
 
 

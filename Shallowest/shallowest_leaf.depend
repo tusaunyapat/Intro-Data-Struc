@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1606127208 source:d:\intro-data-struc\shallowest\main.cpp
+	<stdexcept>
+	<iostream>
+	"map_bst.h"
+	"student.h"
+	<vector>
+
+1606127190 d:\intro-data-struc\shallowest\map_bst.h
+	<iostream>
+
+1699606823 d:\intro-data-struc\shallowest\student.h
+	<algorithm>
+	<iostream>
+

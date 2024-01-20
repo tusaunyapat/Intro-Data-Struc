@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1698927558 source:d:\intro-data-struc\heapdes\main.cpp
+	<iostream>
+	<vector>
+	<queue>
+

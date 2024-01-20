@@ -135,17 +135,18 @@ public:
   student() : name(), scores() { }
   student(const std::string &a_name,const std::vector<int> &a_score) : name(a_name), scores(a_score) { }
 
-  int sum_score() const {
-    int sum = 0;
-    for (auto &v : scores)
-      sum += v;
-    return sum;
+  int sum_score() const{
+    int n=0;
+    for(auto a : scores){
+        n+= a;
+    }
+    return n;
   }
 
   bool operator<(const student& other) const{
-    if(sum_score() < other.sum_score()) return true;
-    if(sum_score() == other.sum_score() && name > other.name)return true;
-    return false;
+      if(sum_score() < other.sum_score())return true;
+      if(sum_score() == other.sum_score())return name > other.name;
+      return false;
   }
 
 

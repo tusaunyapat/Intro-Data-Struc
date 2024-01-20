@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1698919138 source:d:\intro-data-struc\heapordering\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<algorithm>
+	<functional>
+	<iostream>
+	<string>
+	<stdexcept>
+

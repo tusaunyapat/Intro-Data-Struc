@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1699193896 source:d:\intro-data-struc\queueverticalsplit\main.cpp
+	<iostream>
+	<vector>
+	<string>
+	<queue>
+	"queue.h"
+	"student.h"
+
+1699193896 d:\intro-data-struc\queueverticalsplit\queue.h
+	<stdexcept>
+	<iostream>
+	<vector>
+	<queue>
+
+1705554190 d:\intro-data-struc\queueverticalsplit\student.h
+	<algorithm>
+	<vector>
+	"queue.h"
+

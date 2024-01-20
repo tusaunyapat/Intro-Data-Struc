@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1699860907 source:d:\intro-data-struc\kheapcheck\main.cpp
+	<iostream>
+	<vector>
+

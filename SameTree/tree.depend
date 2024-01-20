@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1511597974 source:d:\intro-data-struc\sametree\main.cpp
+	<iostream>
+	"tree.h"
+
+1699608513 d:\intro-data-struc\sametree\tree.h
+

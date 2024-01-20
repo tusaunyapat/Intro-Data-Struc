@@ -5,12 +5,15 @@
 template <typename T>
 void CP::queue<T>::reverse() {
   // Your code here
+    int a = 0;
+    int b = mSize;
     int cap = mCap;
     mCap = mSize;
-  for(int i=0;i<mSize/2;i++){
-    std::swap(mData[(mFront + i)%mCap], mData[(mFront + mSize - i -1)%mCap]);
-  }
-  mCap = cap;
+
+    for(int i=a;i<b;i++){
+        std::swap(mData[(mFront+ a++ + mCap)%mCap], mData[(mFront+ --b + mCap)%mCap]);
+    }
+    mCap = cap;
 }
 
 template <typename T>
